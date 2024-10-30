@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(45deg, #274217, #31511E, #859F3D, #F6FCDF);
+    background-size: 400% 400%;
+    color: white;
+    animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient{
+    0%{
+        background-position: 0% 50%;
+    }
+
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0% 50%;
+    }
+
+}
+
+.pred{
+    background-color:rgb(2, 44, 2);
+    color: white;
+    border-color: rgb(2, 44, 2);
+    font-weight: 700;
+}
+
+.pred:hover{
+    background-color:rgb(169, 247, 149);
+    color: black;
+    border-color: rgb(64, 150, 64);
+    font-weight: 700;
+}
+
+.pred:onClick{
+    background-color:rgb(144, 213, 127);
+    color: black;
+    border-color: rgb(64, 150, 64);
+    font-weight: 700;
+}
